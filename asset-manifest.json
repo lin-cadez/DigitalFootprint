@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/SpecsHunter.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/SpecsHunter.github.io/static/js/main.10f41f92.js",
+    "main.css": "/SpecsHunter.github.io/static/css/main.6626a486.css",
+    "main.js": "/SpecsHunter.github.io/static/js/main.8c1da79f.js",
     "static/js/787.dfce8737.chunk.js": "/SpecsHunter.github.io/static/js/787.dfce8737.chunk.js",
-    "static/media/logo.svg": "/SpecsHunter.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/SpecsHunter.github.io/index.html",
-    "main.073c9b0a.css.map": "/SpecsHunter.github.io/static/css/main.073c9b0a.css.map",
-    "main.10f41f92.js.map": "/SpecsHunter.github.io/static/js/main.10f41f92.js.map",
+    "main.6626a486.css.map": "/SpecsHunter.github.io/static/css/main.6626a486.css.map",
+    "main.8c1da79f.js.map": "/SpecsHunter.github.io/static/js/main.8c1da79f.js.map",
     "787.dfce8737.chunk.js.map": "/SpecsHunter.github.io/static/js/787.dfce8737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.10f41f92.js"
+    "static/css/main.6626a486.css",
+    "static/js/main.8c1da79f.js"
   ]
 }
