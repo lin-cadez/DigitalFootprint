@@ -2,7 +2,7 @@
   "name": "specs-hunter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "SpecsHunter.github.io",
+  "homepage": "lin-cadez.github.io/InfoHunter",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
