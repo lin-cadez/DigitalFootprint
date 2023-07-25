@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lin-cadez.github.io/DigitalFootprint/static/css/main.86882014.css",
-    "main.js": "/lin-cadez.github.io/DigitalFootprint/static/js/main.432cc2b9.js",
+    "main.css": "/lin-cadez.github.io/DigitalFootprint/static/css/main.a325636d.css",
+    "main.js": "/lin-cadez.github.io/DigitalFootprint/static/js/main.beccbe26.js",
     "static/js/787.dfce8737.chunk.js": "/lin-cadez.github.io/DigitalFootprint/static/js/787.dfce8737.chunk.js",
     "index.html": "/lin-cadez.github.io/DigitalFootprint/index.html",
-    "main.86882014.css.map": "/lin-cadez.github.io/DigitalFootprint/static/css/main.86882014.css.map",
-    "main.432cc2b9.js.map": "/lin-cadez.github.io/DigitalFootprint/static/js/main.432cc2b9.js.map",
+    "main.a325636d.css.map": "/lin-cadez.github.io/DigitalFootprint/static/css/main.a325636d.css.map",
+    "main.beccbe26.js.map": "/lin-cadez.github.io/DigitalFootprint/static/js/main.beccbe26.js.map",
     "787.dfce8737.chunk.js.map": "/lin-cadez.github.io/DigitalFootprint/static/js/787.dfce8737.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86882014.css",
-    "static/js/main.432cc2b9.js"
+    "static/css/main.a325636d.css",
+    "static/js/main.beccbe26.js"
   ]
 }
