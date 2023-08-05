@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css';
 
-
 function App() {
   const [ip, setIp] = React.useState('/')
   const [os, setOs] = React.useState('/')
@@ -20,36 +19,25 @@ function App() {
   const [IsCharging, setIsCharging] = React.useState('/')
   const [batteryLevel, setBatteryLevel] = React.useState('/')
   const [isMobile, setIsMobile] = React.useState('/')
-  
 
-  
   React.useEffect(() => {
-    
-
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent); 
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     if (isMobile) {
       setIsMobile('Yes')
     } else {
       setIsMobile('No')
     }
 
-    
-  
-
-
     navigator.getBattery().then(function (battery) {
-
-
       battery.addEventListener('levelchange', function () {
         editLevelInfo();
-    });
+      });
 
-    function editLevelInfo() {
-  
+      function editLevelInfo() {
         var batteryLevel = battery.level * 100
         setBatteryLevel(batteryLevel)
-    }
-    editLevelInfo();
+      }
+      editLevelInfo();
       function updateBatteryStatus() {
         setIsCharging((battery.charging ? "Yes" : "No"));
       }
@@ -59,21 +47,20 @@ function App() {
       updateBatteryStatus();
     });
 
-    setWebdriver(navigator.webdriver===true ? 'Yes' : 'No')
+    setWebdriver(navigator.webdriver === true ? 'Yes' : 'No')
 
-    setIsOnline(navigator.onLine===true ? 'Yes' : 'No')
+    setIsOnline(navigator.onLine === true ? 'Yes' : 'No')
     setPreferdLanguage(navigator.languages)
 
-    setCookiesEnabled(navigator.cookieEnabled===true ? 'Yes' : 'No')
-    
+    setCookiesEnabled(navigator.cookieEnabled === true ? 'Yes' : 'No')
+
     setDownlink(navigator.connection.downlink)
     setConnectionType(navigator.connection.effectiveType)
     navigator.clipboard
-  .readText()
-  .then(
-    (clipText) => (setClipboard(clipText)),
-  );
-
+      .readText()
+      .then(
+        (clipText) => (setClipboard(clipText)),
+      );
 
     setLang(navigator.language)
     setScreenSize(window.screen.width + 'x' + window.screen.height)
@@ -81,18 +68,13 @@ function App() {
     setDeviceMemory(navigator.deviceMemory)
     navigator.geolocation.getCurrentPosition(onSuccess);
     function onSuccess(position) {
-      
+
       const latitude = position.coords.latitude;
       const longitude = position.coords.longitude;
       var a = latitude + ', ' + longitude
-  
+
       setGeolocation(a);
     }
-
-
-
-   
-
 
     fetch('https://api.ipify.org/?format=json')
 
@@ -101,17 +83,11 @@ function App() {
         setIp(data.ip)
       })
 
-   setOs(navigator.platform)
-
-
+    setOs(navigator.platform)
   }, [])
-
-  
-
 
   return (
     <div>
-
       <h1>Your computer specs</h1>
 
       <div className='specs'>
@@ -132,15 +108,8 @@ function App() {
         <p>Charging: {IsCharging}</p>
         <p>Battery Level: {batteryLevel}%</p>
         <p>Mobile: {isMobile}</p>
-        
-        
-
       </div>
-
-
-
     </div>
-    
   );
 }
 

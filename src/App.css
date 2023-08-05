@@ -1,11 +1,11 @@
-h1{
+h1 {
   text-align: center;
   font-size: 30px;
   margin-top: 50px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.specs{
+.specs {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,13 +19,10 @@ h1{
   width: 50%;
   margin-left: 25%;
   margin-right: 25%;
-  border-color: black;
-  border-style: solid;
-  border-width: 2px;
-  
+  border: 2px solid black;
 }
 
-p{
+p {
   margin: 10px;
   font-size: large;
 }
